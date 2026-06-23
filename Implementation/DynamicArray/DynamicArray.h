@@ -3,13 +3,18 @@
 template<typename T> class DynamicArray{
 
     private:
-    void copy(T &arr);
+    void resize();
+    void destroyAndFree(T * arr,int count);
+    void destroyHalf(T*array,int i);
+    void del(int val);
+
+    
+    
+    
     public:
     int len;
     int cap;
     T * arr ;
-    
-
     DynamicArray();// Constructor
     DynamicArray(int cap,T val);// Constructor
     DynamicArray(const DynamicArray& other); //Copy Constructor

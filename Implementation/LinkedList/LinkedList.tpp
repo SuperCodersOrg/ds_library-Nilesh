@@ -3,8 +3,6 @@
 
 
 
-
-
 // LinkedList Constructor
 template<typename T> LinkedList<T> :: LinkedList(){
     head=nullptr;

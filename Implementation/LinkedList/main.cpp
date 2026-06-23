@@ -1,4 +1,5 @@
 #include "LinkedList.h"
+#include<vector>
 using namespace std;
 
 
@@ -8,12 +9,15 @@ class test{
 
 };
 int main(){
-    test t;
-    string h;
-    string *t1;
-    char c[10];
-    cout<<c[2];
-    cout<<sizeof(string);
+    vector<int>a;
+    a.push_back(1);
+    a.push_back(2);
+    a.push_back(3);
+    int * p=&a[2];
+    cout<<a[2]<<endl;
+    a.pop_back();
+    cout<<*p<<endl;
+    
 
     // LinkedList<int>l;
     // l.append(1);
