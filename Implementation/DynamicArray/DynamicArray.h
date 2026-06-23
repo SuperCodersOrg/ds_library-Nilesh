@@ -18,16 +18,16 @@ template<typename T> class DynamicArray{
     DynamicArray();// Constructor
     DynamicArray(int cap,T val);// Constructor
     DynamicArray(const DynamicArray& other); //Copy Constructor
-    DynamicArray(DynamicArray&& other); // Move Constructor
+    T& operator [](int index); // operator [] with =
+    const T& operator [](int index) const; // const operator []
     ~DynamicArray(); //Destructor
-    void push_back(T value); //Add value at last
+    void push_back(const T& value); //Add value at last
     void insert(int index, T value); //Add value at given index
     void remove(int index);// Delete value by index
     void pop_back(); // Delete last element
-    T get(int index);// return value at given index
-    int size(); // return number of elements inserted
-    int capacity();// returns total capacity of array
-    void clear(); // remove all elements
+    int size() const; // return number of elements inserted
+    int capacity()const;// returns total capacity of array
+    //void clear(); // remove all elements
 };
 
 #include "DynamicArray.tpp"

@@ -1,6 +1,54 @@
+
 # Date - 2026-06-23
-## <span style ='color :forestgreen '> Duration  - 2:00pm to 6:00 pm: </span>
-## Implementation and Exception Handling 
+
+
+
+## <div style="display:flex; justify-content:space-between;"> <span style="color:forestgreen;">Duration - 8:00pm to 2:00 am</span><span>git commit -m <span style="color:forestgreen;font-size:17px;"> "DynamicArray: operator overloading" </span> </span> </div>
+
+
+### Methods implemented on DynamicArray:
+private methods will be used as helper methods which cannot be accessed by user
+```cpp
+private:
+    void resize();
+    void destroyAndFree(T * arr,int count);
+    void destroyHalf(T*array,int i);
+    void del(int val);
+```
+
+
+```cpp
+public:
+    DynamicArray();
+    DynamicArray(int cap,T val);
+    DynamicArray(const DynamicArray& other); //Copy Constructor
+    T& operator [](int index); // operator [] 
+    const T& operator [](int index) const; // const operator []
+    ~DynamicArray(); //Destructor
+    void push_back(const T& value); //Add value at last
+    void insert(int index, T value); //Add value at given index
+    void remove(int index);// Delete value by index
+    void pop_back(); // Delete last element
+    int size() const; // return number of elements inserted
+    int capacity()const;// returns total capacity of array
+
+```
+### DynamicArray Updates
+
+- Added bounds-checked `operator[]` overloads (const and non-const).
+- Improved `push_back()` parameter passing from `T` to `const T&` to avoid unnecessary copies.
+- Added underflow protection in `pop_back()`.
+- Added exception handling using `std::out_of_range` and `std::underflow_error`.
+- Improved memory management for non-trivial types with explicit destructor calls.
+- Added groundwork for Rule of Three implementation (copy constructor in progress).
+
+
+
+## <div style="display:flex; justify-content:space-between;"> <span style="color:forestgreen;">Duration - 2:00pm to 6:00 pm</span><span>git commit -m <span style="color:forestgreen;font-size:17px;"> "DynamicArray Exception handling in malloc and placement new" </span> </span> </div>
+
+### Implementation and Exception Handling 
+
+
 
 - **`std::bad_alloc`**
   - Standard exception class used to indicate memory allocation failure.
@@ -42,8 +90,11 @@
   - Individual elements are destroyed with destructors; the entire memory block is released with a single `free(ptr)`.
 
 
-## <span style ='color :forestgreen '> Duration  - 9:30am to 1:00 pm: </span>
-## Memory Management Concepts
+
+## <div style="display:flex; justify-content:space-between;"> <span style="color:forestgreen;">Duration - 9:30am to 1:00 pm</span><span>git commit -m <span style="color:forestgreen;font-size:17px;"> "DynamicArray - Constructor/Destructor implemented" </span> </span> </div>
+
+
+### Memory Management Concepts
 
 * Learned how `malloc()` works and how it allocates raw memory on the heap.
 * Understood that `malloc()` provides aligned memory but does not call constructors or destructors.
@@ -95,10 +146,10 @@ free()
 
 
 
-<div style="height: 2px; background-color: black;"></div>
+<div style="height: 2px; background-color: black;"></div> <br>
 
 # Date - 2026-06-22
-## Duration - 9:30am to 1:00 pm:
+
 
 ### Goal 
 Finalise Design Proposal and Start Implementation
@@ -111,16 +162,3 @@ Separated the single `nilesh_design_proposal.md` file into three separate .md fi
 
 
 ## Duration - 2:00 pm to 6:30 pm
-
-### Goal 
-
-### Problem Encountered
-### What I tried
----
-
-# Format: 
-- Date
-- Duration
-- Goal
-- Problem Encountered
-- What I Tried, Outcome.

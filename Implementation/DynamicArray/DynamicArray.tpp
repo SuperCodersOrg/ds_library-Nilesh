@@ -2,6 +2,7 @@
 #include <type_traits>
 #include <stdlib.h>
 #include <new>
+#include <stdexcept>
 
 
 // Private helping methods
@@ -25,11 +26,12 @@ template<typename T> DynamicArray<T>::~DynamicArray(){
 
 // Delete element by Index
 template<typename T> void DynamicArray<T>::del(int index){
+
+    if(index<0 || index >=len){
+        throw std::out_of_range("Index oit of range");
+    }
     if constexpr(!std::is_trivially_destructible_v<T>){
         arr[index].~T();
-    }
-    else{
-        
     }
     
 }
@@ -75,6 +77,17 @@ template<typename T >DynamicArray<T> :: DynamicArray(int cap,T val){
     }
 }
 
+// Copy Constrctor
+template<typename T> DynamicArray<T>::DynamicArray(const DynamicArray &others){
+    cap=others.cap;
+    len=others.len;
+
+    for(int i=0;i<len;i++){
+        //arr.push_back(others.arr[i]);
+        // Continue Tomorrow
+    }
+
+}
 
 // Resizing the Array
 template<typename T> void DynamicArray<T>:: resize(){
@@ -104,7 +117,7 @@ template<typename T> void DynamicArray<T>:: resize(){
 }
 
 // push_back
-template<typename T> void DynamicArray<T>:: push_back(T val){
+template<typename T> void DynamicArray<T>:: push_back(const T& val){
     if(len==cap){
         resize();
     }
@@ -114,7 +127,67 @@ template<typename T> void DynamicArray<T>:: push_back(T val){
 
 // pop
 template<typename T>void DynamicArray<T>::pop_back(){
-
+    if(len==0){
+        throw std::underflow_error("Array is empty");
+    }
+    del(len-1);
+    len--;
     
 }
 
+
+
+// Operator[] overloading 
+template<typename T> T& DynamicArray<T>::operator[](int index){
+    if(index<0 || index>=len){
+        throw std:: out_of_range("Index out of range");
+    }
+    return arr[index];
+}
+
+// Operator[] const overloading
+template<typename T> const T& DynamicArray<T>::operator[](int index) const{
+    if(index<0 || index>=len){
+        throw std:: out_of_range("Index out of range");
+    }
+    return arr[index];
+}
+
+
+// insert
+template<typename T> void DynamicArray<T>:: insert(int index,T val){
+    if(index<0 || index> len){
+        throw std::out_of_range("Index out of range");
+    }
+    if(index==len){
+        push_back(val);
+        return ;
+    }
+    
+    if(len==cap){
+        resize();
+    }
+
+    for(int i=len;i>index;i--){
+        arr[i]=arr[i-1];
+    }
+    arr[index]=val;
+    len++;
+}
+
+// remove
+template<typename T> void DynamicArray<T> :: remove(int index){
+    if(index<0 || index>=len){
+        throw std::out_of_range("Index out of range");
+    }
+
+}
+
+// size
+template<typename T> int DynamicArray<T>:: size()const{
+    return len;
+}
+// capacity
+template<typename T> int DynamicArray<T>:: capacity()const{
+    return cap;
+}

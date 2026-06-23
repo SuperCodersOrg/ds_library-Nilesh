@@ -16,7 +16,7 @@ int main(){
     int * p=&a[2];
     cout<<a[2]<<endl;
     a.pop_back();
-    cout<<*p<<endl;
+    cout<<a[2]<<endl;
     
 
     // LinkedList<int>l;
