@@ -3,6 +3,14 @@
 
 
 
+//Node Constructor
+template<typename T>
+LinkedList<T> :: Node :: Node(T val){
+        data=val;
+        next=nullptr;
+};
+
+
 // LinkedList Constructor
 template<typename T> LinkedList<T> :: LinkedList(){
     head=nullptr;
@@ -23,6 +31,26 @@ template<typename T>LinkedList<T> :: LinkedList(const LinkedList&others){
     }
 }
 
+// Copy Assignement Constructor
+template<typename T>
+LinkedList<T>& LinkedList<T>::operator=(const LinkedList& others){
+
+    if(this == &others){
+        return *this;
+    }
+
+    clear();
+
+    Node* temp = others.head;
+
+    while(temp){
+        append(temp->data);
+        temp = temp->next;
+    }
+
+    return *this;
+}
+
 
 // LinkedList Destructor
 template<typename T> LinkedList<T> :: ~LinkedList(){
@@ -35,15 +63,9 @@ template<typename T> LinkedList<T> :: ~LinkedList(){
     head=nullptr;
     tail=nullptr;
     size=0;
-}
-
-
-//Node Constructor
-template<typename T>
-LinkedList<T> :: Node :: Node(T val){
-        data=val;
-        next=nullptr;
 };
+
+
 
 // Append
 template<typename T>void 
@@ -132,20 +154,6 @@ void LinkedList<T> :: insert(int pos,T val){
 };
 
 
-//print()
-template<typename T> void 
-LinkedList<T> :: print(){
-    if(!size){
-        std::cout<<"No linked List\n";
-        return;
-    }
-    Node*node=head;
-    while(node){
-        std::cout<<node->data<<" ";
-        node=node->next;
-    }
-    std::cout<<std::endl;
-};
 
 //length()
 template<typename T>
@@ -206,11 +214,11 @@ LinkedList<T>::remove(T val){
         pop();
         return;
     }
-
+    
     size--;
-
+    
     if(nxt==prev){
-
+        
         if(head==tail){
             tail=nullptr;
         }
@@ -218,8 +226,37 @@ LinkedList<T>::remove(T val){
         delete nxt;
         return;
     }
-
+    
     prev->next=nxt->next;
     delete nxt;
-
+    
 }
+
+
+// clear
+template<typename T> void LinkedList<T>:: clear(){
+    
+    while(head){
+        Node*temp=head;
+        temp=temp->next;
+        delete head;
+    }
+    head=nullptr;
+    tail=nullptr;
+    size=0;
+}
+
+//print()
+template<typename T> void 
+LinkedList<T> :: print(){
+    if(!size){
+        std::cout<<"No linked List\n";
+        return;
+    }
+    Node*node=head;
+    while(node){
+        std::cout<<node->data<<" ";
+        node=node->next;
+    }
+    std::cout<<std::endl;
+};

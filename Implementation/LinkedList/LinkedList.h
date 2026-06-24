@@ -15,16 +15,17 @@ template<typename T>class LinkedList{
     LinkedList(); //Constructor
     ~LinkedList(); // Destructor
     LinkedList(const LinkedList& other); // Copy Constructor
-    //LinkedList& operator=(const LinkedList& other); // Handling assignment operator
+    LinkedList& operator=(const LinkedList& other); // Handling assignment operator
     void insertHead(T value); //Insert value at front
     void remove(T val); // Delete value
     void insert(int pos, T value); //Insert value at given position
-    void append(T value); 
-    void pop();//
-    void reverse();
+    void append(T value); // Add element at last
+    void pop();// Delete last element
+    void reverse(); // Reverse the LinkedList
     bool exists(T value); //returns true of value exists otherwise returns false 
     int length(); //return size of the linkedlist
-    void print(); // print the linkedlist
+    void clear();// Delete all elements
+    void print(); // print the linkedlist(for testing)
 
 
 };
