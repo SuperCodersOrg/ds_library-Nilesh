@@ -5,10 +5,10 @@
 
 //Node Constructor
 template<typename T>
-LinkedList<T> :: Node :: Node(T val){
-        data=val;
-        next=nullptr;
-};
+LinkedList<T>::Node::Node(T val)
+    : data(val), next(nullptr)
+{
+}
 
 
 // LinkedList Constructor
@@ -238,8 +238,8 @@ template<typename T> void LinkedList<T>:: clear(){
     
     while(head){
         Node*temp=head;
-        temp=temp->next;
-        delete head;
+        head=head->next;
+        delete temp;
     }
     head=nullptr;
     tail=nullptr;

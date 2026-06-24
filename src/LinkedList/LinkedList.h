@@ -2,13 +2,18 @@
 
 template<typename T>class LinkedList{
 
-    private:
+    public:
     struct Node{
         T data;
         Node*next;
         Node(T val);
+
     };
-    public:
+    
+    
+    
+
+    // 10 methods
     Node*head=nullptr;
     Node*tail=nullptr;
     int size;

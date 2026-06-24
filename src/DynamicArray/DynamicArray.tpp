@@ -257,3 +257,4 @@ template<typename T>void DynamicArray<T>::clear(){
     }
 
 }
+
