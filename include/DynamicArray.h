@@ -5,7 +5,7 @@ template<typename T> class DynamicArray{
     private:
     void resize();
     void destroyAndFree(T * arr,int count);
-    // 7 methods
+    
     public:
     int len;
     int cap;
@@ -26,4 +26,4 @@ template<typename T> class DynamicArray{
     void clear(); // remove all elements
 };
 
-#include "DynamicArray.tpp"
+#include "../src/DynamicArray/DynamicArray.tpp"

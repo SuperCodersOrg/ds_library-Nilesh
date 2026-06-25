@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../DynamicArray/DynamicArray.h"
-#include "../LinkedList/LinkedList.h"
+#include "DynamicArray.h"
+#include "LinkedList.h"
 #include "MyHash.h"
 
 #include <stdexcept>
@@ -51,4 +51,4 @@ public:
     void clear();
 };
 
-#include "HashMap.tpp"
+#include "../src/HashMap/HashMap.tpp"

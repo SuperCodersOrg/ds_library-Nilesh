@@ -2,15 +2,21 @@
 
 template<typename T>class LinkedList{
 
-    public:
+    template<typename>
+    friend struct MyHash;
+
+    template<typename, typename>
+    friend class HashMap;
+    private:
     struct Node{
         T data;
         Node*next;
         Node(T val);
-
+        
     };
     
     
+    public:
     
 
     // 10 methods
@@ -21,6 +27,7 @@ template<typename T>class LinkedList{
     ~LinkedList(); // Destructor
     LinkedList(const LinkedList& other); // Copy Constructor
     LinkedList& operator=(const LinkedList& other); // Handling assignment operator
+    bool operator==(const LinkedList<T>& other) const;
     void insertHead(T value); //Insert value at front
     void remove(T val); // Delete value
     void insert(int pos, T value); //Insert value at given position
@@ -35,4 +42,4 @@ template<typename T>class LinkedList{
 
 };
 
-#include "LinkedList.tpp"
+#include "../src/LinkedList/LinkedList.tpp"

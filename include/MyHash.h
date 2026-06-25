@@ -67,3 +67,23 @@ struct MyHash<const char*> {
     }
 };
 
+
+// Hash Code for linkedlist
+template<typename T>
+struct MyHash<LinkedList<T>> {
+
+    size_t operator()(const LinkedList<T>& list) const {
+
+        size_t hashValue = 0;
+
+        typename LinkedList<T>::Node* curr = list.head;
+
+        while (curr) {
+            hashValue = hashValue * 31 + MyHash<T>{}(curr->data);
+            curr = curr->next;
+        }
+
+        return hashValue * 2654435761u;
+    }
+};
+

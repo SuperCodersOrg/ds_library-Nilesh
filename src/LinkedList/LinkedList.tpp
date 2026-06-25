@@ -1,4 +1,4 @@
-#include "LinkedList.h"
+#include "../../include/LinkedList.h"
 #include <iostream>
 
 
@@ -52,6 +52,7 @@ LinkedList<T>& LinkedList<T>::operator=(const LinkedList& others){
 }
 
 
+
 // LinkedList Destructor
 template<typename T> LinkedList<T> :: ~LinkedList(){
     Node* temp=head;
@@ -66,6 +67,27 @@ template<typename T> LinkedList<T> :: ~LinkedList(){
 };
 
 
+// operator ==
+template<typename T>
+bool LinkedList<T>::operator==(const LinkedList<T>& other) const {
+
+    if(size != other.size)
+        return false;
+
+    Node* a = head;
+    Node* b = other.head;
+
+    while(a && b) {
+
+        if(a->data != b->data)
+            return false;
+
+        a = a->next;
+        b = b->next;
+    }
+
+    return true;
+}
 
 // Append
 template<typename T>void 
