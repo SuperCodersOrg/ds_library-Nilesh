@@ -262,7 +262,6 @@ template<typename T> int DynamicArray<T>:: capacity()const{
 // clear
 template<typename T>void DynamicArray<T>::clear(){
     destroyAndFree(arr,len);
-    cap=4;
     len=0;
 
     arr = (T*)malloc(cap * sizeof(T));

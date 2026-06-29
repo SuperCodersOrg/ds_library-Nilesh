@@ -1,4 +1,5 @@
-# HashMap Design Proposal - version 2
+# HashMap Design Proposal - version 3
+
 
 ## Overview:
 A key-value data structure that uses hashing to provide efficient average-case insertion, deletion, and lookup operations.

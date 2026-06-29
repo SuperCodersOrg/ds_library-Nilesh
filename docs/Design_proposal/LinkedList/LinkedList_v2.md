@@ -8,31 +8,37 @@ A singly linked list consisting of nodes connected through pointers, allowing ef
 
 
 ```cpp   
-template<typename T>class LinkedList{
+template<typename K, typename V>
+class HashMap {
 
-    private:
-    struct Node{
-        T data;
-        Node*next;
-        Node(T val);
-    }
-    public:
-    Node*head=nullptr;
-    Node*tail=nullptr;
-    int size=0;
-    LinkedList(); //Constructor
-    LinkedList(const LinkedList& other); // Copy Constructor
-    LinkedList(LinkedList&& other); // Move Constructor 
-    ~LinkedList(); // Destructor
-    void insertFront(T value); //Insert value at front
-    void deleteFront(); // Delete first value
-    void insert(int pos, T value); //Insert value at given position
-    void append(T value); // Insert value at last
-    bool exists(T value); //returns true of value exists otherwise returns false 
-    int size(); //return size of the linkedlist
-    void reverse()// reverse the LinkedList
-    void print(); // print the linkedlist
+private:
+    struct Pair {
+        K key;
+        V value;
+        Pair(K k, V v);
+        bool operator==(const Pair& other) const {
+            return key == other.key;
+        }
+    };
+    DynamicArray<LinkedList<Pair>> buckets;
+    int bucketCount;
+    int elementCount;
+    size_t hash(const K& key) const;
+    void rehash();
+
+public:
+
+    HashMap(int capacity = 16);
+    void insert(const K& key, const V& value);
+    bool remove(const K& key);
+    bool exists(const K& key) const;
+    V& get(const K& key);
+    int size() const;
+    int capacity() const;
+    float loadFactor() const;
+    void clear();
 };
+
 ```
 
 The current implementation uses a **singly linked list** because it provides a simple structure and satisfies the requirements of the project. However, the design remains *flexible*. If future requirements demand more efficient *bidirectional traversal* or *frequent operations* at both ends of the list, the implementation may be extended to a **doubly linked** list. Such a change can be made without affecting the public interface significantly, allowing the data structure to evolve based on performance considerations and project needs.
