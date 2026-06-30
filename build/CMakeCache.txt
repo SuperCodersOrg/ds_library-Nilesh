@@ -329,34 +329,34 @@ STL_Library_IS_TOP_LEVEL:STATIC=ON
 STL_Library_SOURCE_DIR:STATIC=D:/Git pull/STL-Library
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/external/googletest/googlemock
+gmock_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/googletest-build/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=D:/Git pull/STL-Library/external/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=C:/testing/googletest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/external/googletest
+googletest-distribution_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/googletest-build
 
 //Value Computed by CMake
 googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=D:/Git pull/STL-Library/external/googletest
+googletest-distribution_SOURCE_DIR:STATIC=C:/testing/googletest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/external/googletest/googletest
+gtest_BINARY_DIR:STATIC=D:/Git pull/STL-Library/build/googletest-build/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=D:/Git pull/STL-Library/external/googletest/googletest
+gtest_SOURCE_DIR:STATIC=C:/testing/googletest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -581,7 +581,7 @@ CMAKE_WARN_DEPRECATED:INTERNAL=ON
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/STL_Library
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=D:/Git pull/STL-Library/build/external/googletest/googletest/generated
+generated_dir:INTERNAL=D:/Git pull/STL-Library/build/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

@@ -1,0 +1,140 @@
+[
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\STL_Library.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\STL_Library.dir\\main.cpp.obj -c \"D:\\Git pull\\STL-Library\\main.cpp\"",
+  "file": "D:/Git pull/STL-Library/main.cpp",
+  "output": "CMakeFiles/STL_Library.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\main.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\main.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/main.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/main.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\RemoveTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\RemoveTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/RemoveTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/RemoveTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\InsertTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\InsertTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/InsertTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/InsertTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\PushBackTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\PushBackTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/PushBackTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/PushBackTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\PopBackTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\PopBackTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/PopBackTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/PopBackTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\SizeTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\SizeTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/SizeTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/SizeTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\CapacityTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\CapacityTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/CapacityTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/CapacityTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\DynamicArray\\ClearTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\DynamicArray\\ClearTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/DynamicArray/ClearTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/DynamicArray/ClearTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\InsertHeadTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/InsertHeadTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/InsertHeadTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\AssignmentOperatorTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/AssignmentOperatorTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/AssignmentOperatorTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\EqualityOperatorTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/EqualityOperatorTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/EqualityOperatorTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\RemoveTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/RemoveTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/RemoveTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\InsertTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/InsertTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/InsertTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\AppendTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/AppendTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/AppendTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\PopTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\PopTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/PopTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/PopTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\ReverseTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\ReverseTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/ReverseTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/ReverseTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\LengthTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\LengthTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/LengthTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/LengthTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\LinkedList\\ExistsTests.cpp.obj -c \"D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp\"",
+  "file": "D:/Git pull/STL-Library/tests/LinkedList/ExistsTests.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/LinkedList/ExistsTests.cpp.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\gmock.dir\\includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\testing\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/testing/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\gmock_main.dir\\includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\testing\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/testing/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\gtest.dir\\includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\testing\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:/testing/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/Git pull/STL-Library/build/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles\\gtest_main.dir\\includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\testing\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:/testing/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

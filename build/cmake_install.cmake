@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Git pull/STL-Library/build/external/googletest/cmake_install.cmake")
+  include("D:/Git pull/STL-Library/build/googletest-build/cmake_install.cmake")
 
 endif()
 

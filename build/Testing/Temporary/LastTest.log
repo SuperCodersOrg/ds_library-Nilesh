@@ -1,0 +1,2135 @@
+Start testing: Jun 30 14:46 India Standard Time
+----------------------------------------------------------
+1/82 Testing: LinkedListExistsTest.ExistingElement
+1/82 Test: LinkedListExistsTest.ExistingElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListExistsTest.ExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListExistsTest.ExistingElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListExistsTest.ExistingElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListExistsTest
+[ RUN      ] LinkedListExistsTest.ExistingElement
+[       OK ] LinkedListExistsTest.ExistingElement (0 ms)
+[----------] 1 test from LinkedListExistsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListExistsTest.ExistingElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListExistsTest.ExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/82 Testing: LinkedListExistsTest.NonExistingElement
+2/82 Test: LinkedListExistsTest.NonExistingElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListExistsTest.NonExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListExistsTest.NonExistingElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListExistsTest.NonExistingElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListExistsTest
+[ RUN      ] LinkedListExistsTest.NonExistingElement
+[       OK ] LinkedListExistsTest.NonExistingElement (0 ms)
+[----------] 1 test from LinkedListExistsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListExistsTest.NonExistingElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListExistsTest.NonExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/82 Testing: LinkedListExistsTest.EmptyList
+3/82 Test: LinkedListExistsTest.EmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListExistsTest.EmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListExistsTest.EmptyList" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListExistsTest.EmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListExistsTest
+[ RUN      ] LinkedListExistsTest.EmptyList
+[       OK ] LinkedListExistsTest.EmptyList (0 ms)
+[----------] 1 test from LinkedListExistsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListExistsTest.EmptyList" end time: Jun 30 14:46 India Standard Time
+"LinkedListExistsTest.EmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/82 Testing: LinkedListExistsTest.FirstElementExists
+4/82 Test: LinkedListExistsTest.FirstElementExists
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListExistsTest.FirstElementExists" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListExistsTest.FirstElementExists" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListExistsTest.FirstElementExists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListExistsTest
+[ RUN      ] LinkedListExistsTest.FirstElementExists
+[       OK ] LinkedListExistsTest.FirstElementExists (0 ms)
+[----------] 1 test from LinkedListExistsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListExistsTest.FirstElementExists" end time: Jun 30 14:46 India Standard Time
+"LinkedListExistsTest.FirstElementExists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/82 Testing: LinkedListExistsTest.LastElementExists
+5/82 Test: LinkedListExistsTest.LastElementExists
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListExistsTest.LastElementExists" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListExistsTest.LastElementExists" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListExistsTest.LastElementExists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListExistsTest
+[ RUN      ] LinkedListExistsTest.LastElementExists
+[       OK ] LinkedListExistsTest.LastElementExists (0 ms)
+[----------] 1 test from LinkedListExistsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListExistsTest.LastElementExists" end time: Jun 30 14:46 India Standard Time
+"LinkedListExistsTest.LastElementExists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/82 Testing: LinkedListLengthTest.InitiallyZero
+6/82 Test: LinkedListLengthTest.InitiallyZero
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListLengthTest.InitiallyZero" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListLengthTest.InitiallyZero" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListLengthTest.InitiallyZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListLengthTest
+[ RUN      ] LinkedListLengthTest.InitiallyZero
+[       OK ] LinkedListLengthTest.InitiallyZero (0 ms)
+[----------] 1 test from LinkedListLengthTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListLengthTest.InitiallyZero" end time: Jun 30 14:46 India Standard Time
+"LinkedListLengthTest.InitiallyZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/82 Testing: LinkedListLengthTest.AfterInsertions
+7/82 Test: LinkedListLengthTest.AfterInsertions
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListLengthTest.AfterInsertions" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListLengthTest.AfterInsertions" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListLengthTest.AfterInsertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListLengthTest
+[ RUN      ] LinkedListLengthTest.AfterInsertions
+[       OK ] LinkedListLengthTest.AfterInsertions (0 ms)
+[----------] 1 test from LinkedListLengthTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListLengthTest.AfterInsertions" end time: Jun 30 14:46 India Standard Time
+"LinkedListLengthTest.AfterInsertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/82 Testing: LinkedListLengthTest.AfterRemoval
+8/82 Test: LinkedListLengthTest.AfterRemoval
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListLengthTest.AfterRemoval" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListLengthTest.AfterRemoval" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListLengthTest.AfterRemoval
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListLengthTest
+[ RUN      ] LinkedListLengthTest.AfterRemoval
+[       OK ] LinkedListLengthTest.AfterRemoval (0 ms)
+[----------] 1 test from LinkedListLengthTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListLengthTest.AfterRemoval" end time: Jun 30 14:46 India Standard Time
+"LinkedListLengthTest.AfterRemoval" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/82 Testing: LinkedListLengthTest.AfterClear
+9/82 Test: LinkedListLengthTest.AfterClear
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListLengthTest.AfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListLengthTest.AfterClear" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListLengthTest.AfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListLengthTest
+[ RUN      ] LinkedListLengthTest.AfterClear
+[       OK ] LinkedListLengthTest.AfterClear (0 ms)
+[----------] 1 test from LinkedListLengthTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListLengthTest.AfterClear" end time: Jun 30 14:46 India Standard Time
+"LinkedListLengthTest.AfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/82 Testing: LinkedListReverseTest.ReverseEmptyList
+10/82 Test: LinkedListReverseTest.ReverseEmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListReverseTest.ReverseEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListReverseTest.ReverseEmptyList" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListReverseTest.ReverseEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListReverseTest
+[ RUN      ] LinkedListReverseTest.ReverseEmptyList
+[       OK ] LinkedListReverseTest.ReverseEmptyList (0 ms)
+[----------] 1 test from LinkedListReverseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListReverseTest.ReverseEmptyList" end time: Jun 30 14:46 India Standard Time
+"LinkedListReverseTest.ReverseEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/82 Testing: LinkedListReverseTest.ReverseSingleElement
+11/82 Test: LinkedListReverseTest.ReverseSingleElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListReverseTest.ReverseSingleElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListReverseTest.ReverseSingleElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListReverseTest.ReverseSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListReverseTest
+[ RUN      ] LinkedListReverseTest.ReverseSingleElement
+[       OK ] LinkedListReverseTest.ReverseSingleElement (0 ms)
+[----------] 1 test from LinkedListReverseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListReverseTest.ReverseSingleElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListReverseTest.ReverseSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/82 Testing: LinkedListReverseTest.ReverseMultipleElements
+12/82 Test: LinkedListReverseTest.ReverseMultipleElements
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListReverseTest.ReverseMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListReverseTest.ReverseMultipleElements" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListReverseTest.ReverseMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListReverseTest
+[ RUN      ] LinkedListReverseTest.ReverseMultipleElements
+[       OK ] LinkedListReverseTest.ReverseMultipleElements (0 ms)
+[----------] 1 test from LinkedListReverseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListReverseTest.ReverseMultipleElements" end time: Jun 30 14:46 India Standard Time
+"LinkedListReverseTest.ReverseMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/82 Testing: LinkedListReverseTest.ReverseTwiceReturnsOriginal
+13/82 Test: LinkedListReverseTest.ReverseTwiceReturnsOriginal
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListReverseTest.ReverseTwiceReturnsOriginal" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListReverseTest.ReverseTwiceReturnsOriginal" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListReverseTest.ReverseTwiceReturnsOriginal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListReverseTest
+[ RUN      ] LinkedListReverseTest.ReverseTwiceReturnsOriginal
+[       OK ] LinkedListReverseTest.ReverseTwiceReturnsOriginal (0 ms)
+[----------] 1 test from LinkedListReverseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListReverseTest.ReverseTwiceReturnsOriginal" end time: Jun 30 14:46 India Standard Time
+"LinkedListReverseTest.ReverseTwiceReturnsOriginal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/82 Testing: LinkedListPopTest.PopLastElement
+14/82 Test: LinkedListPopTest.PopLastElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListPopTest.PopLastElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListPopTest.PopLastElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListPopTest.PopLastElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListPopTest
+[ RUN      ] LinkedListPopTest.PopLastElement
+[       OK ] LinkedListPopTest.PopLastElement (0 ms)
+[----------] 1 test from LinkedListPopTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListPopTest.PopLastElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListPopTest.PopLastElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/82 Testing: LinkedListPopTest.PopUntilEmpty
+15/82 Test: LinkedListPopTest.PopUntilEmpty
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListPopTest.PopUntilEmpty" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListPopTest.PopUntilEmpty" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListPopTest.PopUntilEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListPopTest
+[ RUN      ] LinkedListPopTest.PopUntilEmpty
+[       OK ] LinkedListPopTest.PopUntilEmpty (0 ms)
+[----------] 1 test from LinkedListPopTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListPopTest.PopUntilEmpty" end time: Jun 30 14:46 India Standard Time
+"LinkedListPopTest.PopUntilEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/82 Testing: LinkedListPopTest.PopSingleElement
+16/82 Test: LinkedListPopTest.PopSingleElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListPopTest.PopSingleElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListPopTest.PopSingleElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListPopTest.PopSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListPopTest
+[ RUN      ] LinkedListPopTest.PopSingleElement
+[       OK ] LinkedListPopTest.PopSingleElement (0 ms)
+[----------] 1 test from LinkedListPopTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListPopTest.PopSingleElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListPopTest.PopSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/82 Testing: LinkedListPopTest.PopFromEmptyList
+17/82 Test: LinkedListPopTest.PopFromEmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListPopTest.PopFromEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListPopTest.PopFromEmptyList" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListPopTest.PopFromEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListPopTest
+[ RUN      ] LinkedListPopTest.PopFromEmptyList
+[       OK ] LinkedListPopTest.PopFromEmptyList (1 ms)
+[----------] 1 test from LinkedListPopTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListPopTest.PopFromEmptyList" end time: Jun 30 14:46 India Standard Time
+"LinkedListPopTest.PopFromEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/82 Testing: LinkedListAppendTest.AppendSingleElement
+18/82 Test: LinkedListAppendTest.AppendSingleElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAppendTest.AppendSingleElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAppendTest.AppendSingleElement" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAppendTest.AppendSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAppendTest
+[ RUN      ] LinkedListAppendTest.AppendSingleElement
+[       OK ] LinkedListAppendTest.AppendSingleElement (0 ms)
+[----------] 1 test from LinkedListAppendTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAppendTest.AppendSingleElement" end time: Jun 30 14:46 India Standard Time
+"LinkedListAppendTest.AppendSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/82 Testing: LinkedListAppendTest.AppendMultipleElements
+19/82 Test: LinkedListAppendTest.AppendMultipleElements
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAppendTest.AppendMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAppendTest.AppendMultipleElements" start time: Jun 30 14:46 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAppendTest.AppendMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAppendTest
+[ RUN      ] LinkedListAppendTest.AppendMultipleElements
+[       OK ] LinkedListAppendTest.AppendMultipleElements (0 ms)
+[----------] 1 test from LinkedListAppendTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAppendTest.AppendMultipleElements" end time: Jun 30 14:47 India Standard Time
+"LinkedListAppendTest.AppendMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/82 Testing: LinkedListAppendTest.TailUpdatesCorrectly
+20/82 Test: LinkedListAppendTest.TailUpdatesCorrectly
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAppendTest.TailUpdatesCorrectly" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAppendTest.TailUpdatesCorrectly" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAppendTest.TailUpdatesCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAppendTest
+[ RUN      ] LinkedListAppendTest.TailUpdatesCorrectly
+[       OK ] LinkedListAppendTest.TailUpdatesCorrectly (0 ms)
+[----------] 1 test from LinkedListAppendTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAppendTest.TailUpdatesCorrectly" end time: Jun 30 14:47 India Standard Time
+"LinkedListAppendTest.TailUpdatesCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/82 Testing: LinkedListAppendTest.AppendAfterClear
+21/82 Test: LinkedListAppendTest.AppendAfterClear
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAppendTest.AppendAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAppendTest.AppendAfterClear" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAppendTest.AppendAfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAppendTest
+[ RUN      ] LinkedListAppendTest.AppendAfterClear
+[       OK ] LinkedListAppendTest.AppendAfterClear (0 ms)
+[----------] 1 test from LinkedListAppendTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAppendTest.AppendAfterClear" end time: Jun 30 14:47 India Standard Time
+"LinkedListAppendTest.AppendAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/82 Testing: LinkedListAppendTest.AppendLargeDataset
+22/82 Test: LinkedListAppendTest.AppendLargeDataset
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAppendTest.AppendLargeDataset" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAppendTest.AppendLargeDataset" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAppendTest.AppendLargeDataset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAppendTest
+[ RUN      ] LinkedListAppendTest.AppendLargeDataset
+[       OK ] LinkedListAppendTest.AppendLargeDataset (0 ms)
+[----------] 1 test from LinkedListAppendTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAppendTest.AppendLargeDataset" end time: Jun 30 14:47 India Standard Time
+"LinkedListAppendTest.AppendLargeDataset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/82 Testing: LinkedListInsertTest.InsertAtBeginning
+23/82 Test: LinkedListInsertTest.InsertAtBeginning
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InsertAtBeginning" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InsertAtBeginning" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InsertAtBeginning
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertAtBeginning
+[       OK ] LinkedListInsertTest.InsertAtBeginning (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertAtBeginning" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InsertAtBeginning" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/82 Testing: LinkedListInsertTest.InsertAtMiddle
+24/82 Test: LinkedListInsertTest.InsertAtMiddle
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InsertAtMiddle" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InsertAtMiddle" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InsertAtMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertAtMiddle
+[       OK ] LinkedListInsertTest.InsertAtMiddle (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertAtMiddle" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InsertAtMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/82 Testing: LinkedListInsertTest.InsertAtEnd
+25/82 Test: LinkedListInsertTest.InsertAtEnd
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InsertAtEnd" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InsertAtEnd" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InsertAtEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertAtEnd
+[       OK ] LinkedListInsertTest.InsertAtEnd (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertAtEnd" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InsertAtEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/82 Testing: LinkedListInsertTest.InsertIntoEmptyList
+26/82 Test: LinkedListInsertTest.InsertIntoEmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InsertIntoEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InsertIntoEmptyList" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InsertIntoEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InsertIntoEmptyList
+[       OK ] LinkedListInsertTest.InsertIntoEmptyList (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InsertIntoEmptyList" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InsertIntoEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/82 Testing: LinkedListInsertTest.InvalidNegativeIndex
+27/82 Test: LinkedListInsertTest.InvalidNegativeIndex
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InvalidNegativeIndex" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InvalidNegativeIndex" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InvalidNegativeIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InvalidNegativeIndex
+[       OK ] LinkedListInsertTest.InvalidNegativeIndex (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InvalidNegativeIndex" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InvalidNegativeIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/82 Testing: LinkedListInsertTest.InvalidLargeIndex
+28/82 Test: LinkedListInsertTest.InvalidLargeIndex
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertTest.InvalidLargeIndex" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertTest.InvalidLargeIndex" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertTest.InvalidLargeIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertTest
+[ RUN      ] LinkedListInsertTest.InvalidLargeIndex
+[       OK ] LinkedListInsertTest.InvalidLargeIndex (0 ms)
+[----------] 1 test from LinkedListInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertTest.InvalidLargeIndex" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertTest.InvalidLargeIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/82 Testing: LinkedListRemoveTest.RemoveHead
+29/82 Test: LinkedListRemoveTest.RemoveHead
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveHead" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveHead" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveHead
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveHead
+[       OK ] LinkedListRemoveTest.RemoveHead (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveHead" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveHead" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/82 Testing: LinkedListRemoveTest.RemoveMiddle
+30/82 Test: LinkedListRemoveTest.RemoveMiddle
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveMiddle" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveMiddle" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveMiddle
+[       OK ] LinkedListRemoveTest.RemoveMiddle (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveMiddle" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/82 Testing: LinkedListRemoveTest.RemoveTail
+31/82 Test: LinkedListRemoveTest.RemoveTail
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveTail" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveTail" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveTail
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveTail
+[       OK ] LinkedListRemoveTest.RemoveTail (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveTail" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveTail" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/82 Testing: LinkedListRemoveTest.RemoveOnlyElement
+32/82 Test: LinkedListRemoveTest.RemoveOnlyElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveOnlyElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveOnlyElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveOnlyElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveOnlyElement
+[       OK ] LinkedListRemoveTest.RemoveOnlyElement (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveOnlyElement" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveOnlyElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/82 Testing: LinkedListRemoveTest.RemoveNonExistingElement
+33/82 Test: LinkedListRemoveTest.RemoveNonExistingElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveNonExistingElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveNonExistingElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveNonExistingElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveNonExistingElement
+Data not Found![       OK ] LinkedListRemoveTest.RemoveNonExistingElement (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveNonExistingElement" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveNonExistingElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/82 Testing: LinkedListRemoveTest.RemoveFromEmptyList
+34/82 Test: LinkedListRemoveTest.RemoveFromEmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveFromEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveFromEmptyList" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveFromEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveFromEmptyList
+Data not Found![       OK ] LinkedListRemoveTest.RemoveFromEmptyList (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveFromEmptyList" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveFromEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/82 Testing: LinkedListRemoveTest.RemoveFirstOccurrenceOnly
+35/82 Test: LinkedListRemoveTest.RemoveFirstOccurrenceOnly
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListRemoveTest.RemoveFirstOccurrenceOnly" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListRemoveTest.RemoveFirstOccurrenceOnly" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListRemoveTest.RemoveFirstOccurrenceOnly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListRemoveTest
+[ RUN      ] LinkedListRemoveTest.RemoveFirstOccurrenceOnly
+[       OK ] LinkedListRemoveTest.RemoveFirstOccurrenceOnly (0 ms)
+[----------] 1 test from LinkedListRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListRemoveTest.RemoveFirstOccurrenceOnly" end time: Jun 30 14:47 India Standard Time
+"LinkedListRemoveTest.RemoveFirstOccurrenceOnly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/82 Testing: LinkedListEqualityOperatorTest.EqualLists
+36/82 Test: LinkedListEqualityOperatorTest.EqualLists
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListEqualityOperatorTest.EqualLists" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListEqualityOperatorTest.EqualLists" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListEqualityOperatorTest.EqualLists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEqualityOperatorTest
+[ RUN      ] LinkedListEqualityOperatorTest.EqualLists
+[       OK ] LinkedListEqualityOperatorTest.EqualLists (0 ms)
+[----------] 1 test from LinkedListEqualityOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEqualityOperatorTest.EqualLists" end time: Jun 30 14:47 India Standard Time
+"LinkedListEqualityOperatorTest.EqualLists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/82 Testing: LinkedListEqualityOperatorTest.DifferentSizes
+37/82 Test: LinkedListEqualityOperatorTest.DifferentSizes
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListEqualityOperatorTest.DifferentSizes" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListEqualityOperatorTest.DifferentSizes" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListEqualityOperatorTest.DifferentSizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEqualityOperatorTest
+[ RUN      ] LinkedListEqualityOperatorTest.DifferentSizes
+[       OK ] LinkedListEqualityOperatorTest.DifferentSizes (0 ms)
+[----------] 1 test from LinkedListEqualityOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEqualityOperatorTest.DifferentSizes" end time: Jun 30 14:47 India Standard Time
+"LinkedListEqualityOperatorTest.DifferentSizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/82 Testing: LinkedListEqualityOperatorTest.DifferentValues
+38/82 Test: LinkedListEqualityOperatorTest.DifferentValues
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListEqualityOperatorTest.DifferentValues" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListEqualityOperatorTest.DifferentValues" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListEqualityOperatorTest.DifferentValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEqualityOperatorTest
+[ RUN      ] LinkedListEqualityOperatorTest.DifferentValues
+[       OK ] LinkedListEqualityOperatorTest.DifferentValues (0 ms)
+[----------] 1 test from LinkedListEqualityOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEqualityOperatorTest.DifferentValues" end time: Jun 30 14:47 India Standard Time
+"LinkedListEqualityOperatorTest.DifferentValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/82 Testing: LinkedListEqualityOperatorTest.EmptyLists
+39/82 Test: LinkedListEqualityOperatorTest.EmptyLists
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListEqualityOperatorTest.EmptyLists" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListEqualityOperatorTest.EmptyLists" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListEqualityOperatorTest.EmptyLists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEqualityOperatorTest
+[ RUN      ] LinkedListEqualityOperatorTest.EmptyLists
+[       OK ] LinkedListEqualityOperatorTest.EmptyLists (0 ms)
+[----------] 1 test from LinkedListEqualityOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEqualityOperatorTest.EmptyLists" end time: Jun 30 14:47 India Standard Time
+"LinkedListEqualityOperatorTest.EmptyLists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/82 Testing: LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty
+40/82 Test: LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListEqualityOperatorTest
+[ RUN      ] LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty
+[       OK ] LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty (0 ms)
+[----------] 1 test from LinkedListEqualityOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty" end time: Jun 30 14:47 India Standard Time
+"LinkedListEqualityOperatorTest.OneEmptyOneNonEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/82 Testing: LinkedListAssignmentOperatorTest.AssignPopulatedList
+41/82 Test: LinkedListAssignmentOperatorTest.AssignPopulatedList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAssignmentOperatorTest.AssignPopulatedList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAssignmentOperatorTest.AssignPopulatedList" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAssignmentOperatorTest.AssignPopulatedList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAssignmentOperatorTest
+[ RUN      ] LinkedListAssignmentOperatorTest.AssignPopulatedList
+[       OK ] LinkedListAssignmentOperatorTest.AssignPopulatedList (0 ms)
+[----------] 1 test from LinkedListAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAssignmentOperatorTest.AssignPopulatedList" end time: Jun 30 14:47 India Standard Time
+"LinkedListAssignmentOperatorTest.AssignPopulatedList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/82 Testing: LinkedListAssignmentOperatorTest.AssignEmptyList
+42/82 Test: LinkedListAssignmentOperatorTest.AssignEmptyList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAssignmentOperatorTest.AssignEmptyList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAssignmentOperatorTest.AssignEmptyList" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAssignmentOperatorTest.AssignEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAssignmentOperatorTest
+[ RUN      ] LinkedListAssignmentOperatorTest.AssignEmptyList
+[       OK ] LinkedListAssignmentOperatorTest.AssignEmptyList (0 ms)
+[----------] 1 test from LinkedListAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAssignmentOperatorTest.AssignEmptyList" end time: Jun 30 14:47 India Standard Time
+"LinkedListAssignmentOperatorTest.AssignEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/82 Testing: LinkedListAssignmentOperatorTest.SelfAssignment
+43/82 Test: LinkedListAssignmentOperatorTest.SelfAssignment
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAssignmentOperatorTest.SelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAssignmentOperatorTest.SelfAssignment" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAssignmentOperatorTest.SelfAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAssignmentOperatorTest
+[ RUN      ] LinkedListAssignmentOperatorTest.SelfAssignment
+[       OK ] LinkedListAssignmentOperatorTest.SelfAssignment (0 ms)
+[----------] 1 test from LinkedListAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAssignmentOperatorTest.SelfAssignment" end time: Jun 30 14:47 India Standard Time
+"LinkedListAssignmentOperatorTest.SelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/82 Testing: LinkedListAssignmentOperatorTest.DeepCopyVerification
+44/82 Test: LinkedListAssignmentOperatorTest.DeepCopyVerification
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAssignmentOperatorTest.DeepCopyVerification" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAssignmentOperatorTest.DeepCopyVerification" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAssignmentOperatorTest.DeepCopyVerification
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAssignmentOperatorTest
+[ RUN      ] LinkedListAssignmentOperatorTest.DeepCopyVerification
+[       OK ] LinkedListAssignmentOperatorTest.DeepCopyVerification (0 ms)
+[----------] 1 test from LinkedListAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAssignmentOperatorTest.DeepCopyVerification" end time: Jun 30 14:47 India Standard Time
+"LinkedListAssignmentOperatorTest.DeepCopyVerification" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/82 Testing: LinkedListAssignmentOperatorTest.OverwriteExistingList
+45/82 Test: LinkedListAssignmentOperatorTest.OverwriteExistingList
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListAssignmentOperatorTest.OverwriteExistingList" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListAssignmentOperatorTest.OverwriteExistingList" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListAssignmentOperatorTest.OverwriteExistingList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListAssignmentOperatorTest
+[ RUN      ] LinkedListAssignmentOperatorTest.OverwriteExistingList
+[       OK ] LinkedListAssignmentOperatorTest.OverwriteExistingList (0 ms)
+[----------] 1 test from LinkedListAssignmentOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListAssignmentOperatorTest.OverwriteExistingList" end time: Jun 30 14:47 India Standard Time
+"LinkedListAssignmentOperatorTest.OverwriteExistingList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/82 Testing: LinkedListInsertHeadTest.InsertSingleElement
+46/82 Test: LinkedListInsertHeadTest.InsertSingleElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertHeadTest.InsertSingleElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertHeadTest.InsertSingleElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertHeadTest.InsertSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertHeadTest
+[ RUN      ] LinkedListInsertHeadTest.InsertSingleElement
+[       OK ] LinkedListInsertHeadTest.InsertSingleElement (0 ms)
+[----------] 1 test from LinkedListInsertHeadTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertHeadTest.InsertSingleElement" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertHeadTest.InsertSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/82 Testing: LinkedListInsertHeadTest.InsertMultipleElements
+47/82 Test: LinkedListInsertHeadTest.InsertMultipleElements
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertHeadTest.InsertMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertHeadTest.InsertMultipleElements" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertHeadTest.InsertMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertHeadTest
+[ RUN      ] LinkedListInsertHeadTest.InsertMultipleElements
+[       OK ] LinkedListInsertHeadTest.InsertMultipleElements (0 ms)
+[----------] 1 test from LinkedListInsertHeadTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertHeadTest.InsertMultipleElements" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertHeadTest.InsertMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/82 Testing: LinkedListInsertHeadTest.TailRemainsFirstInsertedElement
+48/82 Test: LinkedListInsertHeadTest.TailRemainsFirstInsertedElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertHeadTest.TailRemainsFirstInsertedElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertHeadTest.TailRemainsFirstInsertedElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertHeadTest.TailRemainsFirstInsertedElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertHeadTest
+[ RUN      ] LinkedListInsertHeadTest.TailRemainsFirstInsertedElement
+[       OK ] LinkedListInsertHeadTest.TailRemainsFirstInsertedElement (0 ms)
+[----------] 1 test from LinkedListInsertHeadTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertHeadTest.TailRemainsFirstInsertedElement" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertHeadTest.TailRemainsFirstInsertedElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/82 Testing: LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion
+49/82 Test: LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertHeadTest
+[ RUN      ] LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion
+[       OK ] LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion (0 ms)
+[----------] 1 test from LinkedListInsertHeadTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertHeadTest.HeadChangesAfterEveryInsertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/82 Testing: LinkedListInsertHeadTest.InsertAfterClear
+50/82 Test: LinkedListInsertHeadTest.InsertAfterClear
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=LinkedListInsertHeadTest.InsertAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"LinkedListInsertHeadTest.InsertAfterClear" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListInsertHeadTest.InsertAfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListInsertHeadTest
+[ RUN      ] LinkedListInsertHeadTest.InsertAfterClear
+[       OK ] LinkedListInsertHeadTest.InsertAfterClear (0 ms)
+[----------] 1 test from LinkedListInsertHeadTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListInsertHeadTest.InsertAfterClear" end time: Jun 30 14:47 India Standard Time
+"LinkedListInsertHeadTest.InsertAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/82 Testing: DynamicArrayClearTest.ClearArray
+51/82 Test: DynamicArrayClearTest.ClearArray
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayClearTest.ClearArray" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayClearTest.ClearArray" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayClearTest.ClearArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayClearTest
+[ RUN      ] DynamicArrayClearTest.ClearArray
+[       OK ] DynamicArrayClearTest.ClearArray (0 ms)
+[----------] 1 test from DynamicArrayClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayClearTest.ClearArray" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayClearTest.ClearArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/82 Testing: DynamicArrayClearTest.ClearEmptyArray
+52/82 Test: DynamicArrayClearTest.ClearEmptyArray
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayClearTest.ClearEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayClearTest.ClearEmptyArray" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayClearTest.ClearEmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayClearTest
+[ RUN      ] DynamicArrayClearTest.ClearEmptyArray
+[       OK ] DynamicArrayClearTest.ClearEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayClearTest.ClearEmptyArray" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayClearTest.ClearEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/82 Testing: DynamicArrayClearTest.ReuseAfterClear
+53/82 Test: DynamicArrayClearTest.ReuseAfterClear
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayClearTest.ReuseAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayClearTest.ReuseAfterClear" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayClearTest.ReuseAfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayClearTest
+[ RUN      ] DynamicArrayClearTest.ReuseAfterClear
+[       OK ] DynamicArrayClearTest.ReuseAfterClear (0 ms)
+[----------] 1 test from DynamicArrayClearTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayClearTest.ReuseAfterClear" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayClearTest.ReuseAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/82 Testing: DynamicArrayCapacityTest.DefaultCapacity
+54/82 Test: DynamicArrayCapacityTest.DefaultCapacity
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayCapacityTest.DefaultCapacity" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayCapacityTest.DefaultCapacity" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayCapacityTest.DefaultCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCapacityTest
+[ RUN      ] DynamicArrayCapacityTest.DefaultCapacity
+[       OK ] DynamicArrayCapacityTest.DefaultCapacity (0 ms)
+[----------] 1 test from DynamicArrayCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCapacityTest.DefaultCapacity" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayCapacityTest.DefaultCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/82 Testing: DynamicArrayCapacityTest.CapacityGrows
+55/82 Test: DynamicArrayCapacityTest.CapacityGrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayCapacityTest.CapacityGrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayCapacityTest.CapacityGrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayCapacityTest.CapacityGrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCapacityTest
+[ RUN      ] DynamicArrayCapacityTest.CapacityGrows
+[       OK ] DynamicArrayCapacityTest.CapacityGrows (0 ms)
+[----------] 1 test from DynamicArrayCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCapacityTest.CapacityGrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayCapacityTest.CapacityGrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/82 Testing: DynamicArrayCapacityTest.CapacityAfterClear
+56/82 Test: DynamicArrayCapacityTest.CapacityAfterClear
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayCapacityTest.CapacityAfterClear" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayCapacityTest.CapacityAfterClear" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayCapacityTest.CapacityAfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayCapacityTest
+[ RUN      ] DynamicArrayCapacityTest.CapacityAfterClear
+[       OK ] DynamicArrayCapacityTest.CapacityAfterClear (0 ms)
+[----------] 1 test from DynamicArrayCapacityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayCapacityTest.CapacityAfterClear" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayCapacityTest.CapacityAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/82 Testing: DynamicArraySizeTest.InitiallyZero
+57/82 Test: DynamicArraySizeTest.InitiallyZero
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArraySizeTest.InitiallyZero" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArraySizeTest.InitiallyZero" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArraySizeTest.InitiallyZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArraySizeTest
+[ RUN      ] DynamicArraySizeTest.InitiallyZero
+[       OK ] DynamicArraySizeTest.InitiallyZero (0 ms)
+[----------] 1 test from DynamicArraySizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArraySizeTest.InitiallyZero" end time: Jun 30 14:47 India Standard Time
+"DynamicArraySizeTest.InitiallyZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/82 Testing: DynamicArraySizeTest.SizeAfterInsertions
+58/82 Test: DynamicArraySizeTest.SizeAfterInsertions
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArraySizeTest.SizeAfterInsertions" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArraySizeTest.SizeAfterInsertions" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArraySizeTest.SizeAfterInsertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArraySizeTest
+[ RUN      ] DynamicArraySizeTest.SizeAfterInsertions
+[       OK ] DynamicArraySizeTest.SizeAfterInsertions (0 ms)
+[----------] 1 test from DynamicArraySizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArraySizeTest.SizeAfterInsertions" end time: Jun 30 14:47 India Standard Time
+"DynamicArraySizeTest.SizeAfterInsertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/82 Testing: DynamicArraySizeTest.SizeAfterRemoval
+59/82 Test: DynamicArraySizeTest.SizeAfterRemoval
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArraySizeTest.SizeAfterRemoval" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArraySizeTest.SizeAfterRemoval" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArraySizeTest.SizeAfterRemoval
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArraySizeTest
+[ RUN      ] DynamicArraySizeTest.SizeAfterRemoval
+[       OK ] DynamicArraySizeTest.SizeAfterRemoval (0 ms)
+[----------] 1 test from DynamicArraySizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArraySizeTest.SizeAfterRemoval" end time: Jun 30 14:47 India Standard Time
+"DynamicArraySizeTest.SizeAfterRemoval" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/82 Testing: DynamicArrayPopBackTest.RemoveLastElement
+60/82 Test: DynamicArrayPopBackTest.RemoveLastElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPopBackTest.RemoveLastElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPopBackTest.RemoveLastElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPopBackTest.RemoveLastElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.RemoveLastElement
+[       OK ] DynamicArrayPopBackTest.RemoveLastElement (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.RemoveLastElement" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPopBackTest.RemoveLastElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/82 Testing: DynamicArrayPopBackTest.RemoveAllElements
+61/82 Test: DynamicArrayPopBackTest.RemoveAllElements
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPopBackTest.RemoveAllElements" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPopBackTest.RemoveAllElements" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPopBackTest.RemoveAllElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackTest
+[ RUN      ] DynamicArrayPopBackTest.RemoveAllElements
+[       OK ] DynamicArrayPopBackTest.RemoveAllElements (0 ms)
+[----------] 1 test from DynamicArrayPopBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackTest.RemoveAllElements" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPopBackTest.RemoveAllElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/82 Testing: DynamicArrayPopBackStandalone.PopFromEmptyThrows
+62/82 Test: DynamicArrayPopBackStandalone.PopFromEmptyThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPopBackStandalone.PopFromEmptyThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPopBackStandalone.PopFromEmptyThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPopBackStandalone.PopFromEmptyThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPopBackStandalone
+[ RUN      ] DynamicArrayPopBackStandalone.PopFromEmptyThrows
+[       OK ] DynamicArrayPopBackStandalone.PopFromEmptyThrows (0 ms)
+[----------] 1 test from DynamicArrayPopBackStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPopBackStandalone.PopFromEmptyThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPopBackStandalone.PopFromEmptyThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/82 Testing: DynamicArrayPushBackTest.PushSingleElement
+63/82 Test: DynamicArrayPushBackTest.PushSingleElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPushBackTest.PushSingleElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPushBackTest.PushSingleElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPushBackTest.PushSingleElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushSingleElement
+[       OK ] DynamicArrayPushBackTest.PushSingleElement (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushSingleElement" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPushBackTest.PushSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/82 Testing: DynamicArrayPushBackTest.PushMultipleElements
+64/82 Test: DynamicArrayPushBackTest.PushMultipleElements
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPushBackTest.PushMultipleElements" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPushBackTest.PushMultipleElements" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPushBackTest.PushMultipleElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushMultipleElements
+[       OK ] DynamicArrayPushBackTest.PushMultipleElements (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushMultipleElements" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPushBackTest.PushMultipleElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/82 Testing: DynamicArrayPushBackTest.PushTriggersResize
+65/82 Test: DynamicArrayPushBackTest.PushTriggersResize
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPushBackTest.PushTriggersResize" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPushBackTest.PushTriggersResize" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPushBackTest.PushTriggersResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushTriggersResize
+[       OK ] DynamicArrayPushBackTest.PushTriggersResize (0 ms)
+[----------] 1 test from DynamicArrayPushBackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushTriggersResize" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPushBackTest.PushTriggersResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/82 Testing: DynamicArrayPushBackTest.PushLargeDataset
+66/82 Test: DynamicArrayPushBackTest.PushLargeDataset
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayPushBackTest.PushLargeDataset" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayPushBackTest.PushLargeDataset" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayPushBackTest.PushLargeDataset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayPushBackTest
+[ RUN      ] DynamicArrayPushBackTest.PushLargeDataset
+[       OK ] DynamicArrayPushBackTest.PushLargeDataset (1 ms)
+[----------] 1 test from DynamicArrayPushBackTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayPushBackTest.PushLargeDataset" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayPushBackTest.PushLargeDataset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/82 Testing: DynamicArrayInsertTest.InsertAtBeginning
+67/82 Test: DynamicArrayInsertTest.InsertAtBeginning
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertTest.InsertAtBeginning" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertTest.InsertAtBeginning" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertTest.InsertAtBeginning
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertAtBeginning
+[       OK ] DynamicArrayInsertTest.InsertAtBeginning (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertAtBeginning" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertTest.InsertAtBeginning" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/82 Testing: DynamicArrayInsertTest.InsertAtMiddle
+68/82 Test: DynamicArrayInsertTest.InsertAtMiddle
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertTest.InsertAtMiddle" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertTest.InsertAtMiddle" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertTest.InsertAtMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertAtMiddle
+[       OK ] DynamicArrayInsertTest.InsertAtMiddle (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertAtMiddle" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertTest.InsertAtMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/82 Testing: DynamicArrayInsertTest.InsertAtEnd
+69/82 Test: DynamicArrayInsertTest.InsertAtEnd
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertTest.InsertAtEnd" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertTest.InsertAtEnd" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertTest.InsertAtEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertTest
+[ RUN      ] DynamicArrayInsertTest.InsertAtEnd
+[       OK ] DynamicArrayInsertTest.InsertAtEnd (0 ms)
+[----------] 1 test from DynamicArrayInsertTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertTest.InsertAtEnd" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertTest.InsertAtEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/82 Testing: DynamicArrayInsertStandalone.InsertIntoEmptyArray
+70/82 Test: DynamicArrayInsertStandalone.InsertIntoEmptyArray
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertStandalone.InsertIntoEmptyArray" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertStandalone.InsertIntoEmptyArray" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertStandalone.InsertIntoEmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertStandalone
+[ RUN      ] DynamicArrayInsertStandalone.InsertIntoEmptyArray
+[       OK ] DynamicArrayInsertStandalone.InsertIntoEmptyArray (0 ms)
+[----------] 1 test from DynamicArrayInsertStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertStandalone.InsertIntoEmptyArray" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertStandalone.InsertIntoEmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/82 Testing: DynamicArrayInsertStandalone.InsertTriggersResize
+71/82 Test: DynamicArrayInsertStandalone.InsertTriggersResize
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertStandalone.InsertTriggersResize" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertStandalone.InsertTriggersResize" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertStandalone.InsertTriggersResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertStandalone
+[ RUN      ] DynamicArrayInsertStandalone.InsertTriggersResize
+[       OK ] DynamicArrayInsertStandalone.InsertTriggersResize (0 ms)
+[----------] 1 test from DynamicArrayInsertStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertStandalone.InsertTriggersResize" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertStandalone.InsertTriggersResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/82 Testing: DynamicArrayInsertStandalone.InsertNegativeIndexThrows
+72/82 Test: DynamicArrayInsertStandalone.InsertNegativeIndexThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertStandalone.InsertNegativeIndexThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertStandalone.InsertNegativeIndexThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertStandalone.InsertNegativeIndexThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertStandalone
+[ RUN      ] DynamicArrayInsertStandalone.InsertNegativeIndexThrows
+[       OK ] DynamicArrayInsertStandalone.InsertNegativeIndexThrows (0 ms)
+[----------] 1 test from DynamicArrayInsertStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertStandalone.InsertNegativeIndexThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertStandalone.InsertNegativeIndexThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/82 Testing: DynamicArrayInsertStandalone.InsertPastEndThrows
+73/82 Test: DynamicArrayInsertStandalone.InsertPastEndThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertStandalone.InsertPastEndThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertStandalone.InsertPastEndThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertStandalone.InsertPastEndThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertStandalone
+[ RUN      ] DynamicArrayInsertStandalone.InsertPastEndThrows
+[       OK ] DynamicArrayInsertStandalone.InsertPastEndThrows (0 ms)
+[----------] 1 test from DynamicArrayInsertStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertStandalone.InsertPastEndThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertStandalone.InsertPastEndThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/82 Testing: DynamicArrayInsertStandalone.InsertLargeDataset
+74/82 Test: DynamicArrayInsertStandalone.InsertLargeDataset
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayInsertStandalone.InsertLargeDataset" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayInsertStandalone.InsertLargeDataset" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayInsertStandalone.InsertLargeDataset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayInsertStandalone
+[ RUN      ] DynamicArrayInsertStandalone.InsertLargeDataset
+[       OK ] DynamicArrayInsertStandalone.InsertLargeDataset (0 ms)
+[----------] 1 test from DynamicArrayInsertStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayInsertStandalone.InsertLargeDataset" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayInsertStandalone.InsertLargeDataset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/82 Testing: DynamicArrayRemoveTest.RemoveFromBeginning
+75/82 Test: DynamicArrayRemoveTest.RemoveFromBeginning
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveTest.RemoveFromBeginning" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveTest.RemoveFromBeginning" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveTest.RemoveFromBeginning
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveTest
+[ RUN      ] DynamicArrayRemoveTest.RemoveFromBeginning
+[       OK ] DynamicArrayRemoveTest.RemoveFromBeginning (0 ms)
+[----------] 1 test from DynamicArrayRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveTest.RemoveFromBeginning" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveTest.RemoveFromBeginning" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/82 Testing: DynamicArrayRemoveTest.RemoveFromMiddle
+76/82 Test: DynamicArrayRemoveTest.RemoveFromMiddle
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveTest.RemoveFromMiddle" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveTest.RemoveFromMiddle" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveTest.RemoveFromMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveTest
+[ RUN      ] DynamicArrayRemoveTest.RemoveFromMiddle
+[       OK ] DynamicArrayRemoveTest.RemoveFromMiddle (0 ms)
+[----------] 1 test from DynamicArrayRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveTest.RemoveFromMiddle" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveTest.RemoveFromMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/82 Testing: DynamicArrayRemoveTest.RemoveFromEnd
+77/82 Test: DynamicArrayRemoveTest.RemoveFromEnd
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveTest.RemoveFromEnd" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveTest.RemoveFromEnd" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveTest.RemoveFromEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveTest
+[ RUN      ] DynamicArrayRemoveTest.RemoveFromEnd
+[       OK ] DynamicArrayRemoveTest.RemoveFromEnd (0 ms)
+[----------] 1 test from DynamicArrayRemoveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveTest.RemoveFromEnd" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveTest.RemoveFromEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/82 Testing: DynamicArrayRemoveStandalone.RemoveOnlyElement
+78/82 Test: DynamicArrayRemoveStandalone.RemoveOnlyElement
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveStandalone.RemoveOnlyElement" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveStandalone.RemoveOnlyElement" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveStandalone.RemoveOnlyElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveStandalone
+[ RUN      ] DynamicArrayRemoveStandalone.RemoveOnlyElement
+[       OK ] DynamicArrayRemoveStandalone.RemoveOnlyElement (0 ms)
+[----------] 1 test from DynamicArrayRemoveStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveStandalone.RemoveOnlyElement" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveStandalone.RemoveOnlyElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/82 Testing: DynamicArrayRemoveStandalone.RemoveFromEmptyThrows
+79/82 Test: DynamicArrayRemoveStandalone.RemoveFromEmptyThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveStandalone.RemoveFromEmptyThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveStandalone.RemoveFromEmptyThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveStandalone.RemoveFromEmptyThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveStandalone
+[ RUN      ] DynamicArrayRemoveStandalone.RemoveFromEmptyThrows
+[       OK ] DynamicArrayRemoveStandalone.RemoveFromEmptyThrows (0 ms)
+[----------] 1 test from DynamicArrayRemoveStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveStandalone.RemoveFromEmptyThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveStandalone.RemoveFromEmptyThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/82 Testing: DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows
+80/82 Test: DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveStandalone
+[ RUN      ] DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows
+[       OK ] DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows (0 ms)
+[----------] 1 test from DynamicArrayRemoveStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveStandalone.RemoveNegativeIndexThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/82 Testing: DynamicArrayRemoveStandalone.RemovePastEndThrows
+81/82 Test: DynamicArrayRemoveStandalone.RemovePastEndThrows
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveStandalone.RemovePastEndThrows" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveStandalone.RemovePastEndThrows" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveStandalone.RemovePastEndThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveStandalone
+[ RUN      ] DynamicArrayRemoveStandalone.RemovePastEndThrows
+[       OK ] DynamicArrayRemoveStandalone.RemovePastEndThrows (0 ms)
+[----------] 1 test from DynamicArrayRemoveStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveStandalone.RemovePastEndThrows" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveStandalone.RemovePastEndThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/82 Testing: DynamicArrayRemoveStandalone.RemoveLargeDataset
+82/82 Test: DynamicArrayRemoveStandalone.RemoveLargeDataset
+Command: "D:/Git pull/STL-Library/build/DynamicArrayTests.exe" "--gtest_filter=DynamicArrayRemoveStandalone.RemoveLargeDataset" "--gtest_also_run_disabled_tests"
+Directory: D:/Git pull/STL-Library/build
+"DynamicArrayRemoveStandalone.RemoveLargeDataset" start time: Jun 30 14:47 India Standard Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DynamicArrayRemoveStandalone.RemoveLargeDataset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DynamicArrayRemoveStandalone
+[ RUN      ] DynamicArrayRemoveStandalone.RemoveLargeDataset
+[       OK ] DynamicArrayRemoveStandalone.RemoveLargeDataset (0 ms)
+[----------] 1 test from DynamicArrayRemoveStandalone (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"DynamicArrayRemoveStandalone.RemoveLargeDataset" end time: Jun 30 14:47 India Standard Time
+"DynamicArrayRemoveStandalone.RemoveLargeDataset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 30 14:47 India Standard Time

@@ -1,7 +1,317 @@
 {
-  "tests": 32,
+  "tests": 82,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "LinkedListExistsTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ExistingElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "NonExistingElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp",
+          "line": 15
+        },
+        {
+          "name": "EmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp",
+          "line": 25
+        },
+        {
+          "name": "FirstElementExists",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp",
+          "line": 32
+        },
+        {
+          "name": "LastElementExists",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ExistsTests.cpp",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "name": "LinkedListLengthTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InitiallyZero",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\LengthTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "AfterInsertions",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\LengthTests.cpp",
+          "line": 11
+        },
+        {
+          "name": "AfterRemoval",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\LengthTests.cpp",
+          "line": 22
+        },
+        {
+          "name": "AfterClear",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\LengthTests.cpp",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "name": "LinkedListReverseTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "ReverseEmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ReverseTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "ReverseSingleElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ReverseTests.cpp",
+          "line": 15
+        },
+        {
+          "name": "ReverseMultipleElements",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ReverseTests.cpp",
+          "line": 27
+        },
+        {
+          "name": "ReverseTwiceReturnsOriginal",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\ReverseTests.cpp",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "name": "LinkedListPopTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "PopLastElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\PopTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "PopUntilEmpty",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\PopTests.cpp",
+          "line": 18
+        },
+        {
+          "name": "PopSingleElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\PopTests.cpp",
+          "line": 33
+        },
+        {
+          "name": "PopFromEmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\PopTests.cpp",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "LinkedListAppendTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AppendSingleElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "AppendMultipleElements",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp",
+          "line": 15
+        },
+        {
+          "name": "TailUpdatesCorrectly",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp",
+          "line": 30
+        },
+        {
+          "name": "AppendAfterClear",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp",
+          "line": 42
+        },
+        {
+          "name": "AppendLargeDataset",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AppendTests.cpp",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "name": "LinkedListInsertTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "InsertAtBeginning",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertAtMiddle",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 17
+        },
+        {
+          "name": "InsertAtEnd",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 33
+        },
+        {
+          "name": "InsertIntoEmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 46
+        },
+        {
+          "name": "InvalidNegativeIndex",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 57
+        },
+        {
+          "name": "InvalidLargeIndex",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertTests.cpp",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "name": "LinkedListRemoveTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "RemoveHead",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "RemoveMiddle",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 19
+        },
+        {
+          "name": "RemoveTail",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 35
+        },
+        {
+          "name": "RemoveOnlyElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 51
+        },
+        {
+          "name": "RemoveNonExistingElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 64
+        },
+        {
+          "name": "RemoveFromEmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 79
+        },
+        {
+          "name": "RemoveFirstOccurrenceOnly",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\RemoveTests.cpp",
+          "line": 90
+        }
+      ]
+    },
+    {
+      "name": "LinkedListEqualityOperatorTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EqualLists",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "DifferentSizes",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp",
+          "line": 20
+        },
+        {
+          "name": "DifferentValues",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp",
+          "line": 33
+        },
+        {
+          "name": "EmptyLists",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp",
+          "line": 49
+        },
+        {
+          "name": "OneEmptyOneNonEmpty",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\EqualityOperatorTests.cpp",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "name": "LinkedListAssignmentOperatorTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AssignPopulatedList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "AssignEmptyList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp",
+          "line": 20
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp",
+          "line": 35
+        },
+        {
+          "name": "DeepCopyVerification",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp",
+          "line": 51
+        },
+        {
+          "name": "OverwriteExistingList",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\AssignmentOperatorTests.cpp",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "name": "LinkedListInsertHeadTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertSingleElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertMultipleElements",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp",
+          "line": 18
+        },
+        {
+          "name": "TailRemainsFirstInsertedElement",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp",
+          "line": 33
+        },
+        {
+          "name": "HeadChangesAfterEveryInsertion",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp",
+          "line": 45
+        },
+        {
+          "name": "InsertAfterClear",
+          "file": "D:\\Git pull\\STL-Library\\tests\\LinkedList\\InsertHeadTests.cpp",
+          "line": 61
+        }
+      ]
+    },
     {
       "name": "DynamicArrayClearTest",
       "tests": 3,

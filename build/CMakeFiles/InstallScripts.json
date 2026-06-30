@@ -2,9 +2,9 @@
 	"InstallScripts" : 
 	[
 		"D:/Git pull/STL-Library/build/cmake_install.cmake",
-		"D:/Git pull/STL-Library/build/external/googletest/cmake_install.cmake",
-		"D:/Git pull/STL-Library/build/external/googletest/googlemock/cmake_install.cmake",
-		"D:/Git pull/STL-Library/build/external/googletest/googletest/cmake_install.cmake"
+		"D:/Git pull/STL-Library/build/googletest-build/cmake_install.cmake",
+		"D:/Git pull/STL-Library/build/googletest-build/googlemock/cmake_install.cmake",
+		"D:/Git pull/STL-Library/build/googletest-build/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

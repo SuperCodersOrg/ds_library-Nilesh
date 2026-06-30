@@ -1,4 +1,4 @@
-#include "../../external/googletest/googletest/include/gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "../../include/DynamicArray.h"
 
 TEST(DynamicArrayCapacityTest, DefaultCapacity)

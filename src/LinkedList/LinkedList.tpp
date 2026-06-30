@@ -108,7 +108,9 @@ LinkedList<T> :: append(T val){
 // pop()
 template<typename T> void 
 LinkedList<T> :: pop(){
-    if(size==0) return;
+    if(size==0){
+        throw std::underflow_error("Linkedlist is empty");
+    }
     Node*temp=head;
     size--;
     if(head->next==nullptr){
@@ -147,18 +149,17 @@ template<typename T>
 void LinkedList<T> :: insert(int pos,T val){
 
     // pos>size || pos<1
-    if(size+1<pos || pos<1){ 
-        std::cout<<"Invalid Size";
-        return;
+    if(size+1<pos || pos<0){ 
+        throw std::out_of_range("Index out of range");
     }
     // Last insertion
-    if(size+1==pos){
+    if(size==pos){
         append(val);
         return;
     }
     
     // Insert at head (or Head is nullptr)
-    if(pos==1 ){
+    if(pos==0 ){
         insertHead(val);
         return;
     }
@@ -167,7 +168,7 @@ void LinkedList<T> :: insert(int pos,T val){
     Node * node= new Node(val);
     size++;
     Node*prev=head;
-    for(int i=0;i<pos-2;i++){
+    for(int i=0;i<pos-1;i++){
         prev=prev->next;
     }
     node->next=prev->next;
@@ -268,17 +269,3 @@ template<typename T> void LinkedList<T>:: clear(){
     size=0;
 }
 
-//print()
-template<typename T> void 
-LinkedList<T> :: print(){
-    if(!size){
-        std::cout<<"No linked List\n";
-        return;
-    }
-    Node*node=head;
-    while(node){
-        std::cout<<node->data<<" ";
-        node=node->next;
-    }
-    std::cout<<std::endl;
-};
