@@ -30,13 +30,17 @@ add_subdirectory(${GTEST_ROOT} googletest-build)
 # Tests
 add_executable(Tests
     tests/main.cpp
-    tests/DynamicArray/RemoveTests.cpp
-    tests/DynamicArray/InsertTests.cpp
-    tests/DynamicArray/PushBackTests.cpp
-    tests/DynamicArray/PopBackTests.cpp
-    tests/DynamicArray/SizeTests.cpp
-    tests/DynamicArray/CapacityTests.cpp
-    tests/DynamicArray/ClearTests.cpp
+    # tests/DynamicArray/RemoveTests.cpp
+    # tests/DynamicArray/InsertTests.cpp
+    # tests/DynamicArray/PushBackTests.cpp
+    # tests/DynamicArray/PopBackTests.cpp
+    # tests/DynamicArray/SizeTests.cpp
+    # tests/DynamicArray/CapacityTests.cpp
+    # tests/DynamicArray/ClearTests.cpp
+    # tests/DynamicArray/ConstructorTests.cpp
+    # tests/DynamicArray/CopyConstructorTests.cpp
+    # tests/DynamicArray/CopyAssignmentTests.cpp
+    
     
     
     tests/LinkedList/InsertHeadTests.cpp

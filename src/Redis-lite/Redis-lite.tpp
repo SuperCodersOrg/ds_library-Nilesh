@@ -16,10 +16,10 @@ template<typename K,typename V> void Redis_lite<K,V>::run(){
         
         cout<<"redis > ";
         getline(cin,input);
-        input=To_lower(input);
         stringstream ss(input);
         ss>>method;
-        string key,val;
+        method=To_lower(method);
+        string key,strm,val="";
 
         if(method=="get"){
             ss>>key;
@@ -28,7 +28,12 @@ template<typename K,typename V> void Redis_lite<K,V>::run(){
         }
         else if(method=="set"){
             ss>>key;
-            ss>>val;
+            ss>>strm;
+            do{
+            val=val+strm+" ";
+            ss>>strm;
+
+            }while(!ss.fail());
             set(key,val);
             
         }
@@ -66,7 +71,7 @@ template<typename K,typename V> void Redis_lite<K,V>::run(){
 
 // Constructor
 template<typename K,typename V> Redis_lite<K,V>::Redis_lite(){
-   // run();
+    // run();
 }
 
 // To_lower()
@@ -75,20 +80,19 @@ template<typename K,typename V> string Redis_lite<K,V>::To_lower(string s){
     return s;
 }
 
-// // Done()
-// template<typename K,typename V>std:: string Redis_lite<K,V>:: Done(){
-
-// }
 
 
 // get()
 template<typename K,typename V> bool Redis_lite<K,V>::get(const K& key){
     if(database.exists(key)){
         
-        cout<<database.get(key);
+        cout<<database.get(key)<<endl;
         return true;
     }
-    else return false;
+    else{
+        cout<< "Key not found!"<<endl;
+        return false;
+    }
 }
 
 // set
