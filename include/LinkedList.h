@@ -36,7 +36,6 @@ template<typename T>class LinkedList{
     bool exists(T value); //returns true of value exists otherwise returns false 
     int length(); //return size of the linkedlist
     void clear();// Delete all elements
-    void print(); // print the linkedlist(for testing)
 
 
 };

@@ -49,7 +49,7 @@ LinkedList consists of individually allocated nodes connected by *next pointers*
 The destructor `traverses` the list and deletes every node until the list becomes empty.
 
 Copy operations perform a deep copy by allocating new nodes and duplicating the contents of the source list.
-![LinkedList](../images/Linkedlist.jpg)
+![LinkedList](images/Linkedlist.jpg)
 
 ### Copy Operations
 

@@ -44,19 +44,18 @@ public:
 
 # Section 2 - Internal Representation
 
+
+
+HashMap uses **separate chaining** to handle collisions. The bucket array stores `LinkedList<Pair>` objects, where each node contains a key-value pair.
+
+Memory management is handled automatically through the destructors of `DynamicArray` and `LinkedList`. When a `HashMap` object is destroyed, each bucket is cleaned up by its corresponding `LinkedList` destructor, which deletes all nodes in the chain.
+
 ## Rule of Three
 
 All three data structures allocate memory dynamically. Therefore, each structure follows the Rule of Three by implementing a **destructor**, **copy constructor**, and **copy assignment operator**. These functions ensure proper resource management, prevent `memory leaks`, and provide correct deep copying of dynamically allocated data.
 
-HashMap uses **separate chaining**. A bucket array stores pointers to *linked lists*, where each node in a chain stores a key and a value of type `T`.
-
-The destructor `traverses` every bucket, deletes all nodes in the chains, and finally releases the bucket array.
-
-Copy operations perform a deep copy by allocating a new bucket array and duplicating all key-value pairs.
-
-
-![Hashmap1](../images/Hashmap1.jpg)
-![Hashmap2](../images/Hashmap2.jpg)
+## Memory Diagram
+![Hashmap](images/HashMap_v2.jpg)
 
 
 ### Copy Operations
@@ -68,73 +67,20 @@ Shallow copying is avoided because shared memory may lead to `dangling pointers`
 
 # Section 3 - Complexity Estimates
 
-## HashMap
+| Operation               | Best Case | Average Case | Worst Case | Reason                                                                                                                                                            |
+| ----------------------- | :-------: | :----------: | :--------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HashMap(int capacity)` |    O(n)   |     O(n)     |    O(n)    | Initializes the bucket array by creating the specified number of empty linked lists.                                                                              |
+| `hash(const K& key)`    |    O(1)   |     O(1)     |    O(1)    | Computes the bucket index using the hash function and modulo operation.                                                                                           |
+| `insert()`              |    O(1)   |     O(1)     |    O(n)    | Under normal conditions, insertion occurs in a short chain. In the worst case, excessive collisions or rehashing may require traversing and reinserting elements. |
+| `remove()`              |    O(1)   |     O(1)     |    O(n)    | The target bucket is located directly using hashing. In the worst case, the entire chain must be traversed.                                                       |
+| `exists()`              |    O(1)   |     O(1)     |    O(n)    | Hashing limits the search to a single bucket. Excessive collisions may require scanning the complete chain.                                                       |
+| `get()`                 |    O(1)   |     O(1)     |    O(n)    | The appropriate bucket is found directly. In the worst case, all keys collide into the same bucket.                                                               |
+| `size()`                |    O(1)   |     O(1)     |    O(1)    | The number of stored elements is maintained in a member variable.                                                                                                 |
+| `capacity()`            |    O(1)   |     O(1)     |    O(1)    | The bucket count is maintained in a member variable.                                                                                                              |
+| `loadFactor()`          |    O(1)   |     O(1)     |    O(1)    | Computed using `elementCount / bucketCount`.                                                                                                                      |
+| `clear()`               |    O(n)   |     O(n)     |    O(n)    | Every bucket is cleared by deleting all nodes stored in its linked list.                                                                                          |
+| `rehash()`              |    O(n)   |     O(n)     |    O(n)    | A new bucket array is created and every existing key-value pair is rehashed and inserted into the new buckets.                                                    |
 
-(Collision handling uses separate chaining.)
-
-### insert()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(n)
-
-**Why:** Under normal conditions, insertion occurs in a short chain. If all keys hash to the same bucket, the entire chain must be traversed.
-
-### get()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(n)
-
-**Why:** Hashing provides direct access to the appropriate bucket. In the worst case, all keys may collide into the same bucket, requiring traversal of the entire chain.
-
-### exists()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(n)
-
-**Why:** Searching is limited to a single chain in average cases, but may require scanning all elements if collisions are excessive.
-
-### remove()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(n)
-
-**Why:** The appropriate bucket is found directly, but collisions may require traversing a long chain.
-
-### size()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(1)
-
-**Why:** The number of stored elements is maintained in a variable.
-
-### capacity()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(1)
-
-**Why:** The number of buckets is stored in a variable.
-
-### loadFactor()
-
-* **Best Case:** O(1)
-* **Average Case:** O(1)
-* **Worst Case:** O(1)
-
-**Why:** It is computed using size divided by capacity.
-
-### clear()
-
-* **Best Case:** O(n)
-* **Average Case:** O(n)
-* **Worst Case:** O(n)
-
-**Why:** Every element stored in the hash table must be deleted. This requires traversing all chains and deleting each node once.
 
 
 ## Section 4 - Design Decision

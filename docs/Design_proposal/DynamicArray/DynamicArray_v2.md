@@ -40,7 +40,7 @@ The destructor releases the dynamically allocated array using `delete[]`.
 
 Copy operations perform a **deep copy** by allocating a new array and copying all elements from the source object.
 
-![DynamicArray](../images/Dynamicarray.jpg)
+![DynamicArray](images/Dynamicarray.jpg)
 
 ### Copy Operations
 

@@ -157,7 +157,7 @@ The destructor releases the dynamically allocated array using `delete[]`.
 Copy operations perform a **deep copy** by allocating a new array and copying all elements from the source object.
 
 
-![DynamicArray](images/Dynamicarray.jpg)
+![DynamicArray](Dynamicarray/images/Dynamicarray.jpg)
 ### LinkedList
 
 
@@ -168,7 +168,7 @@ The destructor `traverses` the list and deletes every node until the list become
 Copy operations perform a deep copy by allocating new nodes and duplicating the contents of the source list.
 
 
-![LinkedList](images/Linkedlist.jpg)
+![LinkedList](Linkedlist/images/Linkedlist.jpg)
 
 ### HashMap
 
@@ -180,7 +180,8 @@ The destructor `traverses` every bucket, deletes all nodes in the chains, and fi
 Copy operations perform a deep copy by allocating a new bucket array and duplicating all key-value pairs.
 
 
-![Hashmap1](images/Hashmap_v2.jpg)
+![Hashmap1](Hashmap/images/Hashmap1.jpg)
+![Hashmap1](Hashmap/images/Hashmap2.jpg)
 
 
 ### Copy Operations
